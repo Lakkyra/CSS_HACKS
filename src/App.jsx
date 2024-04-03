@@ -1,4 +1,4 @@
-import {Home, Error} from './pages'
+import {Home, Error, Auth} from './pages'
 import {Navbar, Footer} from './components'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
@@ -9,6 +9,7 @@ function App() {
         <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/*" element={<Error />} />
+              <Route path="/auth" element={<Auth />} />
         </Routes>
         <Footer />
       </BrowserRouter>
