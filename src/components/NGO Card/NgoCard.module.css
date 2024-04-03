@@ -1,0 +1,32 @@
+.card {
+    width: 69rem;
+    /* background: green; */
+    border: 1px solid #121212;
+    height: 18rem;
+    display: flex;
+}
+
+.logoContainer {
+    height: 5rem;
+    width: 5rem;
+}
+
+.logoContainer img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.TitleContainer {
+    height: 5rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    flex: 1;
+}
+.TitleContainer h1 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+.TitleContainer h5 {
+    font-weight: 100;
+    font-size: 1.1rem;
+}

@@ -1,5 +1,5 @@
 import Home from "./Home/Home";
 import Error from "./Error/Error";
 import Auth from "./Auth/Auth";
-
-export {Home, Error, Auth}
+import NGO from "./NGO/NGO";
+export {Home, Error, NGO, Auth}
