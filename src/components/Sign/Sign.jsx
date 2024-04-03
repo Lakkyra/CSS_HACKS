@@ -1,4 +1,5 @@
 
+
 export function Signup(handleSubmit, email, handleEmailChange, password, handlePasswordChange, username, handleUsernameChange){
     return (
         <div>
@@ -40,7 +41,7 @@ export function Signup(handleSubmit, email, handleEmailChange, password, handleP
 export function Signin(handleSubmit, email, handleEmailChange, password, handlePasswordChange){
     return (
         <div>
-            <h2>Back to Contributing</h2>
+            <h2>Your help to the society matters, Welcome back</h2>
             <form onSubmit={handleSubmit}>
                 <div>
                     <label>Email:</label>
