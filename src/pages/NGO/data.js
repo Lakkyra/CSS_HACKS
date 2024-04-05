@@ -12,6 +12,17 @@ export const ngo = [
     },
     {
         logo: '/public/NGO logo.jpg',
+        id: "avcd",
+        name: 'Project Humanity',
+        address: 'Jorhat, Assam',
+        followers: '2k+',
+        volunteers: '100+',
+        drills: '20+',
+        type: 'Trust',
+        desc: 'Sectors Working in: Food, Blood, Public Welfare'
+    },
+    {
+        logo: '/public/NGO logo.jpg',
         id: "fds",
         name: 'GLOBAL IMPERIAL FOUNDATION TRUST',
         address: 'New Delhi, Delhi',
